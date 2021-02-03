@@ -1,0 +1,1 @@
+docker run -dp 9000:8080 goapp:latest

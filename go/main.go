@@ -12,7 +12,7 @@ type NameEvent struct {
 }
 
 func HandleRequest(ctx context.Context, name NameEvent) (string, error) {
-	return fmt.Sprintf("%s, please visit  https://www.aws.training/ and get certified", name.Name), nil
+	return fmt.Sprintf("%s, for training visit  https://www.aws.training/ and get certified", name.Name), nil
 }
 
 func main() {
