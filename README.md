@@ -16,3 +16,16 @@ It is assumed that you already have the following setup:
 Run setup-ecr.sh
 and this will create a new ecr repo in your account 
 it will then do a docker login from AWS piped credentials into this repo
+
+cd go 
+./build.sh
+./run.sh
+./test/sh
+. ./loginecr.sh
+./upload.sh
+(go deploy & run via console)
+cd ..
+./teardownecr.sh
+
+video here
+https://www.youtube.com/watch?v=9VipidFSFrA
