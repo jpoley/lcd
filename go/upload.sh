@@ -1,2 +1,2 @@
-docker tag goapp:latest $ECR_URI/goapp:latest
-docker push $ECR_URI/goapp:latest
+docker tag app:latest $ECR_URI/app:latest
+docker push $ECR_URI/app:latest
